@@ -1,0 +1,266 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    min-height: 100vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0,0.25);
+}
+header nav .logo{
+    margin-left: 2%;
+}
+header nav .logo p{
+    font-size: 19px;
+    color: teal;
+}
+header nav .menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .menus li{
+    list-style: none;
+    margin: 8px;
+}
+header nav .menus li a{
+    text-decoration: none;
+    color: teal;
+    font-size: 19px;
+}
+header nav .menus li #login{
+    padding: 14px;
+    background-color: #3163d6;
+    color: white;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+aside{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0,0.25);
+    float: left;
+    overflow: auto;
+}
+aside .content-aside .menu-aside li{
+    list-style: none;
+    margin-top: 25px;
+}
+aside .content-aside .menu-aside li .choice-cat{
+    display: none;
+}
+aside .content-aside .menu-aside li .choice-cat li a{
+    color: aliceblue;
+    
+}
+aside .content-aside .menu-aside li .choice-cat.active{
+    display: block;
+    background-color: #7e8385;
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.8s;
+    
+}
+
+
+aside .content-aside .menu-aside li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #2c455f;
+}
+aside .content-aside .menu-aside li #admin{
+    text-decoration: underline;
+    font-size: 25px;
+    color: #1b627d;
+    font-weight: bold;
+
+}
+.my-dash{
+    margin-bottom:50px;
+}
+.section-titre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.section-titre .titre{
+    margin: 12px;
+}
+.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-content .elements{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 98%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0,0.25);
+    padding: 2% 0 2% 0;
+}
+.section-content .elements .elements-listes-1{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        width: 200px;
+        height: 100px;
+        background-color:  #d66031;
+        color: white;
+        margin: 8px;
+        cursor: pointer;
+}
+.section-content .elements .elements-listes-2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #1e375e;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #4d5e86;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-4{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #3163d6;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-5{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #d66031;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-6{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #192a50;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-7{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #305e79;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-8{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #192a50;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-9{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color:  #b73672;
+    color: white;
+    margin: 8px;
+    cursor: pointer;
+}
+.section-content .elements .elements-listes-1,.elements-listes-2, p{
+    font-size: 19px;
+}
+.my-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.my-table .content-table{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 98%;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0,0.25);
+    padding: 2% 0 2% 0;
+}
+.my-table .content-table table{
+    border-collapse: collapse;
+    width: 98%;
+}
+.my-table .content-table table th{
+    border: 1px solid rgb(143, 141, 141);
+    background-color: #5e5f60;
+    color: aliceblue;
+    padding: 8px;
+    text-align: start;
+}
+.my-table .content-table table td{
+    border: 1px solid black;
+}
+
+footer{
+    background-color: #192a50;
+    color: aliceblue;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
